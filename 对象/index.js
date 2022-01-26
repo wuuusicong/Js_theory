@@ -23,3 +23,7 @@ var myObject = {
 };
 var c = Object.getOwnPropertyDescriptor( myObject, "a" );  //检测属性特性的方法
 console.log(c)
+
+
+let memo = new Array(3).fill(new Array(3).fill(0));
+console.log(memo[0][1])
